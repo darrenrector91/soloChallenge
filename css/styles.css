@@ -1,0 +1,18 @@
+.counter {
+    height: 100px;
+    width: 1000px;
+    background-color: maroon;
+    border: 2px solid black;
+}
+
+.counterTwo {
+    height: 100px;
+    width: 1000px;
+    background-color: rgba(255, 255, 0, 0.609);
+    border: 2px solid black;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
