@@ -5,17 +5,17 @@ $(document).ready(function () {
     $('.container').on('click', '.delete', removeDiv);
 
     function counterClick() {
-        console.log('button clicked');
-        $('body').append('<div class="counter"><p><button class="swap">Swap</button><button class="delete">Delete</button></p></div>');
+        console.log('generate clicked');
+        $('.container').append('<div class="counter"><p><button class="swap">Swap</button><button class="delete">Delete</button></p></div>');
     };
 
     function removeDiv() {
         console.log('delete clicked');
-        $('.counter').remove();
+        $(this).parent().parent().remove();
     };
 
     function swapClass() {
         console.log('swap clicked');
-        $('.container').toggleClass('counterTwo');
+        $('counter').toggleClass('counterTwo');
     };
 });

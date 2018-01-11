@@ -1,14 +1,14 @@
 .counter {
     height: 100px;
     width: 1000px;
-    background-color: maroon;
+    background-color: #F74A15;
     border: 2px solid black;
 }
 
 .counterTwo {
     height: 100px;
     width: 1000px;
-    background-color: rgba(255, 255, 0, 0.609);
+    background-color: #F8C00E;
     border: 2px solid black;
 }
 
